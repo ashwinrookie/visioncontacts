@@ -54,9 +54,9 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 "Hamid ",
               ),
-              onPressed: () => UrlLauncher.launch("tel://21213123123"),
+              onPressed: () => _service.call(hamid),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 5),
             RaisedButton(
               child: Text(
                 "Akshay",
@@ -70,28 +70,28 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onPressed: () => _service.call(ashwin),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 5),
             RaisedButton(
               child: Text(
                 "Avillie",
               ),
               onPressed: () => _service.call(avillie),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 5),
             RaisedButton(
               child: Text(
                 "Divakar",
               ),
               onPressed: () => _service.call(divakar),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 5),
             RaisedButton(
               child: Text(
                 "Hemanth",
               ),
               onPressed: () => _service.call(hemanth),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 5),
           ],
         ),
       ),
